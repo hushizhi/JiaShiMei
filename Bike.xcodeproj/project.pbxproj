@@ -1,0 +1,780 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C617C9DD311B716A1B97DF7 /* Pods_BikeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15124CB9B6901369DB2FCBBF /* Pods_BikeTests.framework */; };
+		45BEB47B01E25F61BBF7602F /* Pods_Bike.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A0AEF16533885B7BC7B54586 /* Pods_Bike.framework */; };
+		A4A95737C1407EB969EE82EA /* Pods_BikeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61FABE0A94617336F59CF57B /* Pods_BikeUITests.framework */; };
+		AF51C8DD1F11EDDB00050FF8 /* MyPinAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF51C8DC1F11EDDB00050FF8 /* MyPinAnnotation.swift */; };
+		AF6D97131F0CC9B900F23882 /* AboutUsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AF6D97121F0CC9B900F23882 /* AboutUsController.swift */; };
+		AFA153FC1F0BD4A900AD0190 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA153FB1F0BD4A900AD0190 /* AppDelegate.swift */; };
+		AFA153FE1F0BD4A900AD0190 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA153FD1F0BD4A900AD0190 /* ViewController.swift */; };
+		AFA154011F0BD4A900AD0190 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA153FF1F0BD4A900AD0190 /* Main.storyboard */; };
+		AFA154031F0BD4A900AD0190 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AFA154021F0BD4A900AD0190 /* Assets.xcassets */; };
+		AFA154061F0BD4A900AD0190 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AFA154041F0BD4A900AD0190 /* LaunchScreen.storyboard */; };
+		AFA154111F0BD4AA00AD0190 /* BikeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA154101F0BD4AA00AD0190 /* BikeTests.swift */; };
+		AFA1541C1F0BD4AA00AD0190 /* BikeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFA1541B1F0BD4AA00AD0190 /* BikeUITests.swift */; };
+		AFA1542D1F0BD58700AD0190 /* LaunchImage-700-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA154291F0BD58700AD0190 /* LaunchImage-700-568h@2x.png */; };
+		AFA1542E1F0BD58700AD0190 /* LaunchImage-700@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA1542A1F0BD58700AD0190 /* LaunchImage-700@2x.png */; };
+		AFA1542F1F0BD58700AD0190 /* LaunchImage-800-667h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA1542B1F0BD58700AD0190 /* LaunchImage-800-667h@2x.png */; };
+		AFA154301F0BD58700AD0190 /* LaunchImage-800-Portrait-736h@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = AFA1542C1F0BD58700AD0190 /* LaunchImage-800-Portrait-736h@3x.png */; };
+		AFAA65491F0BE42800EC9FF0 /* WebViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA65481F0BE42800EC9FF0 /* WebViewController.swift */; };
+		AFAA654B1F0C897700EC9FF0 /* ManuController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AFAA654A1F0C897700EC9FF0 /* ManuController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AFA1540D1F0BD4AA00AD0190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFA153F01F0BD4A900AD0190 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFA153F71F0BD4A900AD0190;
+			remoteInfo = Bike;
+		};
+		AFA154181F0BD4AA00AD0190 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AFA153F01F0BD4A900AD0190 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AFA153F71F0BD4A900AD0190;
+			remoteInfo = Bike;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		15124CB9B6901369DB2FCBBF /* Pods_BikeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2573C900B6D983A888A7E280 /* Pods-BikeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BikeUITests/Pods-BikeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4A79C6C3A44403080BB7554F /* Pods-BikeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BikeUITests/Pods-BikeUITests.release.xcconfig"; sourceTree = "<group>"; };
+		61FABE0A94617336F59CF57B /* Pods_BikeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BikeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		829BDBEF5232819BA12C02E0 /* Pods-BikeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-BikeTests/Pods-BikeTests.release.xcconfig"; sourceTree = "<group>"; };
+		A0AEF16533885B7BC7B54586 /* Pods_Bike.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Bike.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ACFBFD016360A0005A6F82FB /* Pods-Bike.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bike.release.xcconfig"; path = "Pods/Target Support Files/Pods-Bike/Pods-Bike.release.xcconfig"; sourceTree = "<group>"; };
+		AF43C1A01F0C9AD8009FBF6F /* Bike-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bike-Bridging-Header.h"; sourceTree = "<group>"; };
+		AF51C8DC1F11EDDB00050FF8 /* MyPinAnnotation.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MyPinAnnotation.swift; sourceTree = "<group>"; };
+		AF6D97121F0CC9B900F23882 /* AboutUsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AboutUsController.swift; sourceTree = "<group>"; };
+		AFA153F81F0BD4A900AD0190 /* Bike.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Bike.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA153FB1F0BD4A900AD0190 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AFA153FD1F0BD4A900AD0190 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AFA154001F0BD4A900AD0190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AFA154021F0BD4A900AD0190 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AFA154051F0BD4A900AD0190 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AFA154071F0BD4A900AD0190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFA1540C1F0BD4AA00AD0190 /* BikeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA154101F0BD4AA00AD0190 /* BikeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeTests.swift; sourceTree = "<group>"; };
+		AFA154121F0BD4AA00AD0190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFA154171F0BD4AA00AD0190 /* BikeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BikeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		AFA1541B1F0BD4AA00AD0190 /* BikeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BikeUITests.swift; sourceTree = "<group>"; };
+		AFA1541D1F0BD4AA00AD0190 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AFA154291F0BD58700AD0190 /* LaunchImage-700-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700-568h@2x.png"; sourceTree = "<group>"; };
+		AFA1542A1F0BD58700AD0190 /* LaunchImage-700@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-700@2x.png"; sourceTree = "<group>"; };
+		AFA1542B1F0BD58700AD0190 /* LaunchImage-800-667h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-667h@2x.png"; sourceTree = "<group>"; };
+		AFA1542C1F0BD58700AD0190 /* LaunchImage-800-Portrait-736h@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImage-800-Portrait-736h@3x.png"; sourceTree = "<group>"; };
+		AFAA65481F0BE42800EC9FF0 /* WebViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebViewController.swift; sourceTree = "<group>"; };
+		AFAA654A1F0C897700EC9FF0 /* ManuController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManuController.swift; sourceTree = "<group>"; };
+		B58B83760038EB61A3C502C2 /* Pods-Bike.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Bike.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Bike/Pods-Bike.debug.xcconfig"; sourceTree = "<group>"; };
+		C5531C5D6FD02B2D80DAD897 /* Pods-BikeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BikeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BikeTests/Pods-BikeTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AFA153F51F0BD4A900AD0190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45BEB47B01E25F61BBF7602F /* Pods_Bike.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA154091F0BD4AA00AD0190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C617C9DD311B716A1B97DF7 /* Pods_BikeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA154141F0BD4AA00AD0190 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A4A95737C1407EB969EE82EA /* Pods_BikeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		AFA153EF1F0BD4A900AD0190 = {
+			isa = PBXGroup;
+			children = (
+				AFA153FA1F0BD4A900AD0190 /* Bike */,
+				AFA1540F1F0BD4AA00AD0190 /* BikeTests */,
+				AFA1541A1F0BD4AA00AD0190 /* BikeUITests */,
+				AFA153F91F0BD4A900AD0190 /* Products */,
+				AFAA65451F0BE13D00EC9FF0 /* Frameworks */,
+				B9E71A3CF4A6DAC09FF5F768 /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		AFA153F91F0BD4A900AD0190 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AFA153F81F0BD4A900AD0190 /* Bike.app */,
+				AFA1540C1F0BD4AA00AD0190 /* BikeTests.xctest */,
+				AFA154171F0BD4AA00AD0190 /* BikeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AFA153FA1F0BD4A900AD0190 /* Bike */ = {
+			isa = PBXGroup;
+			children = (
+				AFA153FB1F0BD4A900AD0190 /* AppDelegate.swift */,
+				AFA153FD1F0BD4A900AD0190 /* ViewController.swift */,
+				AF51C8DC1F11EDDB00050FF8 /* MyPinAnnotation.swift */,
+				AF6D97121F0CC9B900F23882 /* AboutUsController.swift */,
+				AFAA65481F0BE42800EC9FF0 /* WebViewController.swift */,
+				AFAA654A1F0C897700EC9FF0 /* ManuController.swift */,
+				AFA153FF1F0BD4A900AD0190 /* Main.storyboard */,
+				AFA154021F0BD4A900AD0190 /* Assets.xcassets */,
+				AFA154291F0BD58700AD0190 /* LaunchImage-700-568h@2x.png */,
+				AFA1542A1F0BD58700AD0190 /* LaunchImage-700@2x.png */,
+				AFA1542B1F0BD58700AD0190 /* LaunchImage-800-667h@2x.png */,
+				AFA1542C1F0BD58700AD0190 /* LaunchImage-800-Portrait-736h@3x.png */,
+				AFA154041F0BD4A900AD0190 /* LaunchScreen.storyboard */,
+				AFA154071F0BD4A900AD0190 /* Info.plist */,
+				AF43C1A01F0C9AD8009FBF6F /* Bike-Bridging-Header.h */,
+			);
+			path = Bike;
+			sourceTree = "<group>";
+		};
+		AFA1540F1F0BD4AA00AD0190 /* BikeTests */ = {
+			isa = PBXGroup;
+			children = (
+				AFA154101F0BD4AA00AD0190 /* BikeTests.swift */,
+				AFA154121F0BD4AA00AD0190 /* Info.plist */,
+			);
+			path = BikeTests;
+			sourceTree = "<group>";
+		};
+		AFA1541A1F0BD4AA00AD0190 /* BikeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AFA1541B1F0BD4AA00AD0190 /* BikeUITests.swift */,
+				AFA1541D1F0BD4AA00AD0190 /* Info.plist */,
+			);
+			path = BikeUITests;
+			sourceTree = "<group>";
+		};
+		AFAA65451F0BE13D00EC9FF0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A0AEF16533885B7BC7B54586 /* Pods_Bike.framework */,
+				15124CB9B6901369DB2FCBBF /* Pods_BikeTests.framework */,
+				61FABE0A94617336F59CF57B /* Pods_BikeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9E71A3CF4A6DAC09FF5F768 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B58B83760038EB61A3C502C2 /* Pods-Bike.debug.xcconfig */,
+				ACFBFD016360A0005A6F82FB /* Pods-Bike.release.xcconfig */,
+				C5531C5D6FD02B2D80DAD897 /* Pods-BikeTests.debug.xcconfig */,
+				829BDBEF5232819BA12C02E0 /* Pods-BikeTests.release.xcconfig */,
+				2573C900B6D983A888A7E280 /* Pods-BikeUITests.debug.xcconfig */,
+				4A79C6C3A44403080BB7554F /* Pods-BikeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AFA153F71F0BD4A900AD0190 /* Bike */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA154201F0BD4AA00AD0190 /* Build configuration list for PBXNativeTarget "Bike" */;
+			buildPhases = (
+				2CE0142937516371EF4363AC /* [CP] Check Pods Manifest.lock */,
+				AFA153F41F0BD4A900AD0190 /* Sources */,
+				AFA153F51F0BD4A900AD0190 /* Frameworks */,
+				AFA153F61F0BD4A900AD0190 /* Resources */,
+				03DC2CE8E3947D5959D66F23 /* [CP] Embed Pods Frameworks */,
+				D4A2ABA963C70B8CD137EE34 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Bike;
+			productName = Bike;
+			productReference = AFA153F81F0BD4A900AD0190 /* Bike.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AFA1540B1F0BD4AA00AD0190 /* BikeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA154231F0BD4AA00AD0190 /* Build configuration list for PBXNativeTarget "BikeTests" */;
+			buildPhases = (
+				3A34681E9DD46098F1D64D79 /* [CP] Check Pods Manifest.lock */,
+				AFA154081F0BD4AA00AD0190 /* Sources */,
+				AFA154091F0BD4AA00AD0190 /* Frameworks */,
+				AFA1540A1F0BD4AA00AD0190 /* Resources */,
+				361C27BDDF851CB4A972B8B0 /* [CP] Embed Pods Frameworks */,
+				F5B228D6512E4583CD89CFC3 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFA1540E1F0BD4AA00AD0190 /* PBXTargetDependency */,
+			);
+			name = BikeTests;
+			productName = BikeTests;
+			productReference = AFA1540C1F0BD4AA00AD0190 /* BikeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AFA154161F0BD4AA00AD0190 /* BikeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AFA154261F0BD4AA00AD0190 /* Build configuration list for PBXNativeTarget "BikeUITests" */;
+			buildPhases = (
+				2DCD6C88D968C02514F94CB9 /* [CP] Check Pods Manifest.lock */,
+				AFA154131F0BD4AA00AD0190 /* Sources */,
+				AFA154141F0BD4AA00AD0190 /* Frameworks */,
+				AFA154151F0BD4AA00AD0190 /* Resources */,
+				134A161E16F54A71FA924133 /* [CP] Embed Pods Frameworks */,
+				05F2819512F32120741741A9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AFA154191F0BD4AA00AD0190 /* PBXTargetDependency */,
+			);
+			name = BikeUITests;
+			productName = BikeUITests;
+			productReference = AFA154171F0BD4AA00AD0190 /* BikeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AFA153F01F0BD4A900AD0190 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = Joyo;
+				TargetAttributes = {
+					AFA153F71F0BD4A900AD0190 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = D7J6RJSE79;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.Maps.iOS = {
+								enabled = 0;
+							};
+						};
+					};
+					AFA1540B1F0BD4AA00AD0190 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = D7J6RJSE79;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AFA153F71F0BD4A900AD0190;
+					};
+					AFA154161F0BD4AA00AD0190 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = D7J6RJSE79;
+						ProvisioningStyle = Automatic;
+						TestTargetID = AFA153F71F0BD4A900AD0190;
+					};
+				};
+			};
+			buildConfigurationList = AFA153F31F0BD4A900AD0190 /* Build configuration list for PBXProject "Bike" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AFA153EF1F0BD4A900AD0190;
+			productRefGroup = AFA153F91F0BD4A900AD0190 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AFA153F71F0BD4A900AD0190 /* Bike */,
+				AFA1540B1F0BD4AA00AD0190 /* BikeTests */,
+				AFA154161F0BD4AA00AD0190 /* BikeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AFA153F61F0BD4A900AD0190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA154061F0BD4A900AD0190 /* LaunchScreen.storyboard in Resources */,
+				AFA1542F1F0BD58700AD0190 /* LaunchImage-800-667h@2x.png in Resources */,
+				AFA154031F0BD4A900AD0190 /* Assets.xcassets in Resources */,
+				AFA1542E1F0BD58700AD0190 /* LaunchImage-700@2x.png in Resources */,
+				AFA1542D1F0BD58700AD0190 /* LaunchImage-700-568h@2x.png in Resources */,
+				AFA154011F0BD4A900AD0190 /* Main.storyboard in Resources */,
+				AFA154301F0BD58700AD0190 /* LaunchImage-800-Portrait-736h@3x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA1540A1F0BD4AA00AD0190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA154151F0BD4AA00AD0190 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03DC2CE8E3947D5959D66F23 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bike/Pods-Bike-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		05F2819512F32120741741A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikeUITests/Pods-BikeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		134A161E16F54A71FA924133 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikeUITests/Pods-BikeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2CE0142937516371EF4363AC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		2DCD6C88D968C02514F94CB9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		361C27BDDF851CB4A972B8B0 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikeTests/Pods-BikeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3A34681E9DD46098F1D64D79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D4A2ABA963C70B8CD137EE34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Bike/Pods-Bike-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F5B228D6512E4583CD89CFC3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BikeTests/Pods-BikeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AFA153F41F0BD4A900AD0190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AF51C8DD1F11EDDB00050FF8 /* MyPinAnnotation.swift in Sources */,
+				AFAA654B1F0C897700EC9FF0 /* ManuController.swift in Sources */,
+				AFA153FE1F0BD4A900AD0190 /* ViewController.swift in Sources */,
+				AF6D97131F0CC9B900F23882 /* AboutUsController.swift in Sources */,
+				AFAA65491F0BE42800EC9FF0 /* WebViewController.swift in Sources */,
+				AFA153FC1F0BD4A900AD0190 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA154081F0BD4AA00AD0190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA154111F0BD4AA00AD0190 /* BikeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFA154131F0BD4AA00AD0190 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AFA1541C1F0BD4AA00AD0190 /* BikeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AFA1540E1F0BD4AA00AD0190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFA153F71F0BD4A900AD0190 /* Bike */;
+			targetProxy = AFA1540D1F0BD4AA00AD0190 /* PBXContainerItemProxy */;
+		};
+		AFA154191F0BD4AA00AD0190 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AFA153F71F0BD4A900AD0190 /* Bike */;
+			targetProxy = AFA154181F0BD4AA00AD0190 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AFA153FF1F0BD4A900AD0190 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA154001F0BD4A900AD0190 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AFA154041F0BD4A900AD0190 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AFA154051F0BD4A900AD0190 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AFA1541E1F0BD4AA00AD0190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AFA1541F1F0BD4AA00AD0190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AFA154211F0BD4AA00AD0190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B58B83760038EB61A3C502C2 /* Pods-Bike.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = D7J6RJSE79;
+				INFOPLIST_FILE = Bike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cp2876927--.Bike";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bike/Bike-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		AFA154221F0BD4AA00AD0190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ACFBFD016360A0005A6F82FB /* Pods-Bike.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = D7J6RJSE79;
+				INFOPLIST_FILE = Bike/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cp2876927--.Bike";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "Bike/Bike-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		AFA154241F0BD4AA00AD0190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C5531C5D6FD02B2D80DAD897 /* Pods-BikeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = D7J6RJSE79;
+				INFOPLIST_FILE = BikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cp2876927--.BikeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bike.app/Bike";
+			};
+			name = Debug;
+		};
+		AFA154251F0BD4AA00AD0190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 829BDBEF5232819BA12C02E0 /* Pods-BikeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = D7J6RJSE79;
+				INFOPLIST_FILE = BikeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cp2876927--.BikeTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Bike.app/Bike";
+			};
+			name = Release;
+		};
+		AFA154271F0BD4AA00AD0190 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2573C900B6D983A888A7E280 /* Pods-BikeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = D7J6RJSE79;
+				INFOPLIST_FILE = BikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cp2876927--.BikeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Bike;
+			};
+			name = Debug;
+		};
+		AFA154281F0BD4AA00AD0190 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A79C6C3A44403080BB7554F /* Pods-BikeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = D7J6RJSE79;
+				INFOPLIST_FILE = BikeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Cp2876927--.BikeUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = Bike;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AFA153F31F0BD4A900AD0190 /* Build configuration list for PBXProject "Bike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA1541E1F0BD4AA00AD0190 /* Debug */,
+				AFA1541F1F0BD4AA00AD0190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA154201F0BD4AA00AD0190 /* Build configuration list for PBXNativeTarget "Bike" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA154211F0BD4AA00AD0190 /* Debug */,
+				AFA154221F0BD4AA00AD0190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA154231F0BD4AA00AD0190 /* Build configuration list for PBXNativeTarget "BikeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA154241F0BD4AA00AD0190 /* Debug */,
+				AFA154251F0BD4AA00AD0190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AFA154261F0BD4AA00AD0190 /* Build configuration list for PBXNativeTarget "BikeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AFA154271F0BD4AA00AD0190 /* Debug */,
+				AFA154281F0BD4AA00AD0190 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AFA153F01F0BD4A900AD0190 /* Project object */;
+}

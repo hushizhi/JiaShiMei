@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:&#x4e2d;&#x56fd;&#x4e0a;&#x6d77;&#x5e02;&#x5609;&#x5b9a;&#x533a;.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:&#x4e2d;&#x56fd;&#x5e7f;&#x4e1c;&#x7701;&#x6c5f;&#x95e8;&#x5e02;&#x5f00;&#x5e73;&#x5e02;&#x9a6c;&#x5188;&#x9547;.gpx">
+   </FileRef>
+   <FileRef
+      location = "group:Bike.xcodeproj">
+   </FileRef>
+   <FileRef
+      location = "group:Pods/Pods.xcodeproj">
+   </FileRef>
+</Workspace>
